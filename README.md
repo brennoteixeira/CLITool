@@ -8,39 +8,39 @@
 
 Demonstrar, na prática, o uso de Python como ferramenta DevOps, aplicando:
 
-  Automação de tarefas repetitivas
+ - Automação de tarefas repetitivas
 
-  Monitoramento de recursos do sistema
+ - Monitoramento de recursos do sistema
 
-  Organização de código e separação de responsabilidades
+ - Organização de código e separação de responsabilidades
 
-  Criação de ferramentas CLI profissionais
+- Criação de ferramentas CLI profissionais
 
-  Uso de configuração externa e logs
+-  Uso de configuração externa e logs
 
 🛠️ Ferramentas, Linguagens e Tecnologias Utilizadas
 Linguagem
 
-  Python 3
+ - Python 3
 
 Bibliotecas Python
 
-  argparse
+ - argparse
   Criação da interface de linha de comando (CLI) e parsing de argumentos.
   
-  psutil
+-  psutil
   Coleta de métricas do sistema (CPU, memória e disco).
   
-  logging
+ - logging
   Geração de logs estruturados para auditoria e troubleshooting.
   
   pathlib
   Manipulação segura e moderna de caminhos de arquivos e diretórios.
   
-  shutil
+ - shutil
   Operações de cópia e backup de diretórios.
   
-  json
+ - json
   Leitura de configurações externas do projeto.
   
   Conceitos DevOps Aplicados
