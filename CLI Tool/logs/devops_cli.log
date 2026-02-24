@@ -1,6 +1,0 @@
-2026-02-23 19:54:46,993 | INFO | CPU: 16.8% | Memory: 36.8% | Disk: 54.3%
-2026-02-23 19:59:12,053 | INFO | Backup criado com sucesso em backups\backup_20260223_195912
-2026-02-23 19:59:22,632 | INFO | CPU: 3.9% | Memory: 37.2% | Disk: 54.3%
-2026-02-23 20:03:02,239 | INFO | CPU: 3.5% | Memory: 37.5% | Disk: 54.3%
-2026-02-23 20:03:02,242 | INFO | Backup criado com sucesso em backups\backup_20260223_200302
-2026-02-23 20:03:02,242 | INFO | Arquivo removido: tmp\arquivo.log
