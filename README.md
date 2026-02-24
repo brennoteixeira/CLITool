@@ -1,4 +1,4 @@
-🚀 CLI Tool — Automação e Monitoramento com Python
+**🚀 CLI Tool — Automação e Monitoramento com Python**
 
   Ferramenta CLI (Command Line Interface) desenvolvida em Python para automação de tarefas operacionais e monitoramento de recursos do sistema, seguindo conceitos fundamentais de DevOps.
 
