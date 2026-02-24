@@ -34,7 +34,7 @@ Bibliotecas Python
  - logging
   Geração de logs estruturados para auditoria e troubleshooting.
   
-  pathlib
+ - pathlib
   Manipulação segura e moderna de caminhos de arquivos e diretórios.
   
  - shutil
