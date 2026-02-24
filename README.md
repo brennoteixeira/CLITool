@@ -152,6 +152,7 @@ Exemplo:
     "cpu_alert": 80,
     "memory_alert": 80
   }
+  
 ▶️ Como Executar
 
 1️⃣ Instalar dependências
