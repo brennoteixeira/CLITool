@@ -1,0 +1,6 @@
+{
+  "backup_dir": "backups",
+  "temp_extensions": [".tmp", ".log"],
+  "cpu_alert": 80,
+  "memory_alert": 80
+}
