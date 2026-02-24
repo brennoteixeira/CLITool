@@ -43,86 +43,87 @@ Bibliotecas Python
  - json
   Leitura de configurações externas do projeto.
   
-  Conceitos DevOps Aplicados
+ - Conceitos DevOps Aplicados
   
-  Automação de infraestrutura
+ - Automação de infraestrutura
   
-  Monitoramento e observabilidade básica
+ - Monitoramento e observabilidade básica
   
-  Logging centralizado
+ - Logging centralizado
   
-  Pipeline operacional local
+ - Pipeline operacional local
   
-  Configuração externa da aplicação
+ - Configuração externa da aplicação
   
-  Tratamento de erros e validações
+ - Tratamento de erros e validações
 
 ⚙️ O Que o Projeto Faz (Detalhamento Técnico)
+
 📊 Monitoramento do Sistema
 
-Coleta e exibe métricas em tempo real:
-
-Uso de CPU
-
-Uso de memória
-
-Uso de disco
-
-As métricas são:
-
-exibidas no terminal
-
-registradas automaticamente em arquivo de log
+ - Coleta e exibe métricas em tempo real:
+  
+ - Uso de CPU
+  
+ - Uso de memória
+  
+ - Uso de disco
+  
+ - As métricas são:
+  
+ - exibidas no terminal
+  
+ - registradas automaticamente em arquivo de log
 
 📦 Backup de Diretórios
 
-Realiza backup completo de um diretório informado:
-
-Cria automaticamente o diretório de destino (backups/)
-
-Gera versões com timestamp
-
-Copia toda a estrutura de arquivos
-
-Registra a operação em log
+  - Realiza backup completo de um diretório informado:
+    
+  - Cria automaticamente o diretório de destino (backups/)
+    
+  - Gera versões com timestamp
+    
+  - Copia toda a estrutura de arquivos
+    
+  - Registra a operação em log
 
 🧹 Limpeza de Arquivos Temporários
 
-Remove arquivos temporários de um diretório alvo:
+   - Remove arquivos temporários de um diretório alvo:
+    
+   - Baseado em extensões configuráveis (.log, .tmp, etc.)
+    
+   - Conta quantos arquivos foram removidos
 
-Baseado em extensões configuráveis (.log, .tmp, etc.)
-
-Conta quantos arquivos foram removidos
-
-Registra cada remoção em log
+   - Registra cada remoção em log
 
 🔁 Pipeline Local (all)
 
-  Executa monitoramento → backup → limpeza em uma única execução.
+   - Executa monitoramento → backup → limpeza em uma única execução.
 
-  Esse comando simula um pipeline operacional, muito comum em rotinas de DevOps e SRE.
+   - Esse comando simula um pipeline operacional, muito comum em rotinas de DevOps e SRE.
 
 Exemplo de fluxo:
 
-  Coleta métricas do sistema
+   - Coleta métricas do sistema
 
-  Realiza backup do diretório informado
+   - Realiza backup do diretório informado
 
-  Remove arquivos temporários de outro diretório
+   - Remove arquivos temporários de outro diretório
 
 📝 Logging
 
 Todas as ações importantes do sistema são registradas:
 
-  métricas coletadas
+   - métricas coletadas
 
-  backups realizados
+   - backups realizados
 
-  arquivos removidos
+   - arquivos removidos
 
-  erros e validações
+   - erros e validações
 
-Os logs ficam centralizados no diretório logs/.
+**Os logs ficam centralizados no diretório logs/.**
 
 📁 Estrutura do Projeto
   devops_cli/
@@ -136,8 +137,7 @@ Os logs ficam centralizados no diretório logs/.
   │   └── settings.json  # Configurações do projeto
   ├── backups/           # Backups gerados automaticamente
   ├── logs/              # Logs da aplicação
-  ├── requirements.txt  # Dependências
-  └── README.md
+  └── requirements.txt   # Dependências
 🔧 Configuração
 
 As configurações do projeto ficam no arquivo:
@@ -153,34 +153,36 @@ Exemplo:
     "memory_alert": 80
   }
 ▶️ Como Executar
+
 1️⃣ Instalar dependências
   pip install -r requirements.txt
 2️⃣ Executar comandos disponíveis
-  Monitoramento
-  python src/cli.py monitor
-  Backup
-  python src/cli.py backup meu_projeto
-  Limpeza
-  python src/cli.py clean tmp
-  Pipeline completo
-  python src/cli.py all meu_projeto tmp
+   - Monitoramento
+      python src/cli.py monitor
+   - Backup
+      python src/cli.py backup meu_projeto
+   - Limpeza
+      python src/cli.py clean tmp
+   - Pipeline completo
+      python src/cli.py all meu_projeto tmp
+
 📈 Possíveis Evoluções
 
-  Alertas automáticos baseados em limites
+ - Alertas automáticos baseados em limites
 
-  Saída em JSON para integração com outras ferramentas
+ - Saída em JSON para integração com outras ferramentas
 
-  Dockerfile
+ - Dockerfile
 
-  Execução via cron
+ - Execução via cron
 
-  Integração com CI/CD
+ - Integração com CI/CD
 
-  Testes automatizados
+ - Testes automatizados
 
 👨‍💻 Autor
 
-Brenno Teixeira
+Criado por Brenno Teixeira para praticar Python com foco em DevOps
 
 ⭐ Considerações Finais
 
